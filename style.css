@@ -1,0 +1,23 @@
+*{
+/* Familia de fuentes */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer p {
+    text-align: left;
+}
+
+nav > ul{
+    list-style: circle;
+}
+.destacado {
+font-weight: bold;
+color: orange; 
+}
