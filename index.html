@@ -5,34 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Sebastián Barco</title>
-    <link rel="stylesheet" href="style.css"> !
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-        <img src="https://via.placeholder.com/150" alt="Foto de Sebastián Barco" id="photo">
+        <img src="https://placehold.co/150x150?text=SB" alt="Foto de Sebastián Barco" id="photo">
         <h1>Sebastián Barco Gaspar</h1>
-        <p>Guayaquil, Ecuador | sgasparbarco@gmail.com | 0984297653</p>
+        <p class="portada">Soy estudiante de Ciencias de la Computación en ESPOL, con interés en desarrollo frontend,
+            sistemas bien diseñados y soluciones tecnológicas con impacto real. He participado en hackatones ganadores,
+            proyectos web y móviles, y actualmente sigo fortaleciendo mis habilidades en desarrollo de software en un
+            entorno profesional.</p>
+        <p>Guayaquil, Ecuador | sgasparbarco@gmail.com</p>
         <p>
             <a href="https://linkedin.com/in/sebastianbarco" target="_blank">LinkedIn</a> |
             <a href="https://github.com/SebasB76" target="_blank">GitHub</a>
         </p>
     </header>
 
+    <nav>
+        <ul>
+            <li><a href="#perfil">Perfil</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#actividades">Actividades</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#idiomas">Idiomas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
     <main>
 
         <section id="perfil">
             <h2 class="subtitle">Perfil</h2>
-            <p>Estudiante de Ingeniería en Ciencias de la Computación...</p>
+            <p>Estudiante de Ingeniería en Ciencias de la Computación en la
+                <a href="https://www.espol.edu.ec" target="_blank">ESPOL</a>, interesado en el desarrollo de software
+                útil, sostenible y escalable. He participado en proyectos web y móviles, hackatones y soluciones
+                tecnológicas con impacto real, con enfoque en frontend, integración de funcionalidades y resolución de
+                bugs. Busco seguir creciendo como desarrollador, fortaleciendo mis bases técnicas y aprendiendo cómo
+                construir sistemas mejor diseñados.</p>
         </section>
 
         <section id="experiencia">
             <h2 class="subtitle">Experiencia Laboral</h2>
             <article>
-                <img id="foto1" src="jeloulogo.png" alt="LogoJelou">
+                <img id="foto1" src="jeloulogo.png" alt="Logo de Jelou">
                 <h3>Jelou — Software Development Intern</h3>
                 <time>Marzo 2026 – Actualidad</time>
+                <p>Guayaquil, Ecuador</p>
+                <p>Colaboro en el desarrollo y mejora de funcionalidades para productos de software: frontend,
+                    integración de componentes, corrección de bugs, revisión de flujos de usuario y mantenimiento de
+                    código. He reforzado mis habilidades con TypeScript, React, Git y el trabajo colaborativo dentro de
+                    un entorno real de desarrollo.</p>
             </article>
         </section>
 
@@ -40,9 +70,39 @@
             <h2 class="subtitle">Proyectos Destacados</h2>
 
             <article>
-                <h3>InnovAILab Track Gobierno Digital (Hackatón, Ganador)</h3>
+                <img src="https://placehold.co/600x200?text=NASA+Space+Apps" alt="NASA Space Apps Challenge">
+                <h3>NASA Space Apps Challenge <span class="destacado">(Hackatón, Ganador)</span></h3>
+                <time>Octubre 2025</time>
+                <p>Desarrollé parte del frontend de una plataforma web para visualizar la calidad del aire en tiempo
+                    real usando datos de la NASA. Participé en la integración de APIs ambientales y en la construcción de
+                    componentes de la interfaz.</p>
+            </article>
+
+            <article>
+                <img src="https://placehold.co/600x200?text=AgroFuturo" alt="Hackatón AgroFuturo">
+                <h3>Hackatón AgroFuturo <span class="destacado">(Hackatón, Ganador)</span></h3>
+                <time>Noviembre 2025</time>
+                <p>Desarrollé parte del frontend de una aplicación móvil en React Native para conectar agricultores,
+                    inversores y compradores en una sola plataforma, enfocada en facilitar el acceso a inversión y
+                    mejorar la transparencia de precios en el sector agrícola.</p>
+            </article>
+
+            <article>
+                <img src="https://placehold.co/600x200?text=Govly" alt="InnovAILab - Govly">
+                <h3>InnovAILab — Track Gobierno Digital <span class="destacado">(Hackatón, Ganador)</span></h3>
                 <time>Enero 2026</time>
-                <p>Colaboré en el desarrollo del frontend de una plataforma web y móvil (Govly)...</p>
+                <p>Desarrollé parte del frontend de Govly, una plataforma web y móvil para centralizar información de
+                    trámites gubernamentales en Ecuador. Participé en el diseño de pantallas y funcionalidades para
+                    facilitar el acceso ciudadano a servicios públicos.</p>
+            </article>
+
+            <article>
+                <img src="https://placehold.co/600x200?text=Red+de+vuelos" alt="Modelado de red de vuelos en Java">
+                <h3>Modelado de red de vuelos <span class="destacado">(Proyecto académico — Java)</span></h3>
+                <time>Agosto 2025</time>
+                <p>Implementé un modelo de red de vuelos con grafos, aplicando el algoritmo de Dijkstra para hallar rutas
+                    óptimas entre aeropuertos. Reforcé conceptos de programación orientada a objetos, estructuras de
+                    datos, análisis de complejidad y diseño de soluciones algorítmicas.</p>
             </article>
 
         </section>
@@ -51,17 +111,117 @@
             <h2 class="subtitle">Educación</h2>
             <article>
                 <h3>Escuela Superior Politécnica del Litoral (ESPOL)</h3>
-                <p>Ingeniería en Ciencias de la Computación (2024 – Actualidad)</p>
-                <p><strong>Materias relevantes:</strong> Estructuras de Datos; Programación de Sistemas...</p>
+                <p>Ingeniería en Ciencias de la Computación (2024 – Actualidad) — 5.º semestre</p>
+                <p><strong>Materias relevantes:</strong></p>
+                <ol>
+                    <li>Estructuras de Datos</li>
+                    <li>Programación de Sistemas</li>
+                    <li>Programación Orientada a Objetos</li>
+                    <li>Diseño de Software</li>
+                </ol>
+            </article>
+            <article>
+                <h3>Unidad Educativa San José La Salle</h3>
+                <p>Bachiller en Ciencias (2017 – 2023)</p>
+            </article>
+        </section>
+
+        <section id="actividades">
+            <h2 class="subtitle">Actividades</h2>
+            <article>
+                <h3>TAWS ESPOL — Miembro activo</h3>
+                <p>Participo en iniciativas de ciencia de datos, tecnología y sostenibilidad, fortaleciendo el trabajo
+                    en equipo, la investigación y el desarrollo de soluciones con impacto.</p>
             </article>
         </section>
 
         <section id="habilidades">
-            <h2 class="subtitle">Habilidades</h2>
+            <h2 class="subtitle">Habilidades Técnicas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Tecnologías</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lenguajes</td>
+                        <td>Java, Python, JavaScript, TypeScript</td>
+                    </tr>
+                    <tr>
+                        <td>Web y móvil</td>
+                        <td>HTML, CSS, React, React Native</td>
+                    </tr>
+                    <tr>
+                        <td>Bases de datos</td>
+                        <td>MySQL, MongoDB</td>
+                    </tr>
+                    <tr>
+                        <td>Control de versiones</td>
+                        <td>Git, GitHub</td>
+                    </tr>
+                    <tr>
+                        <td>Sistemas operativos</td>
+                        <td>Windows, Linux</td>
+                    </tr>
+                    <tr>
+                        <td>Herramientas</td>
+                        <td>Visual Studio Code, Excel, Word, PowerPoint</td>
+                    </tr>
+                    <tr>
+                        <td>Metodologías</td>
+                        <td>Scrum</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="idiomas">
+            <h2 class="subtitle">Idiomas</h2>
             <ul>
-                <li><strong>Lenguajes:</strong> Java, Python, JavaScript, TypeScript</li>
-                <li><strong>Web y Móvil:</strong> HTML, CSS, React, React Native</li>
+                <li><strong>Español:</strong> Nativo</li>
+                <li><strong>Inglés:</strong> B2 — Intermedio alto</li>
             </ul>
+        </section>
+
+        <section id="contacto">
+            <h2 class="subtitle">Contáctame</h2>
+            <form>
+                <p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                </p>
+                <p>
+                    <label for="correo">Correo</label>
+                    <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com">
+                </p>
+                <p>
+                    <label for="asunto">Asunto</label>
+                    <select id="asunto" name="asunto">
+                        <option value="trabajo">Oferta de trabajo</option>
+                        <option value="proyecto">Proyecto</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </p>
+                <fieldset>
+                    <legend>Motivo de contacto</legend>
+                    <label><input type="radio" name="motivo" value="oferta"> Oferta laboral</label>
+                    <label><input type="radio" name="motivo" value="colaboracion"> Colaboración</label>
+                    <label><input type="radio" name="motivo" value="otro"> Otro</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Temas de interés</legend>
+                    <label><input type="checkbox" name="interes" value="frontend"> Frontend</label>
+                    <label><input type="checkbox" name="interes" value="backend"> Backend</label>
+                    <label><input type="checkbox" name="interes" value="movil"> Desarrollo móvil</label>
+                </fieldset>
+                <p>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+                </p>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
 
     </main>
@@ -70,6 +230,7 @@
         <p>© 2026 Sebastián Barco Gaspar</p>
         <p>Actualizado en mayo 2026 | Guayaquil, Ecuador</p>
     </footer>
+
 </body>
 
 </html>

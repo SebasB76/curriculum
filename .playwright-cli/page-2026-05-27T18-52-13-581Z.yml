@@ -1,0 +1,181 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - img "Foto de Sebastián Barco" [ref=e3]
+    - heading "Sebastián Barco Gaspar" [level=1] [ref=e4]
+    - paragraph [ref=e5]: Soy estudiante de Ciencias de la Computación en ESPOL, con interés en desarrollo frontend, sistemas bien diseñados y soluciones tecnológicas con impacto real. He participado en hackatones ganadores, proyectos web y móviles, y actualmente sigo fortaleciendo mis habilidades en desarrollo de software en un entorno profesional.
+    - paragraph [ref=e6]: Guayaquil, Ecuador | sgasparbarco@gmail.com
+    - paragraph [ref=e7]:
+      - link "LinkedIn" [ref=e8] [cursor=pointer]:
+        - /url: https://linkedin.com/in/sebastianbarco
+      - text: "|"
+      - link "GitHub" [ref=e9] [cursor=pointer]:
+        - /url: https://github.com/SebasB76
+  - navigation [ref=e10]:
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - link "Perfil" [ref=e13] [cursor=pointer]:
+          - /url: "#perfil"
+      - listitem [ref=e14]:
+        - link "Experiencia" [ref=e15] [cursor=pointer]:
+          - /url: "#experiencia"
+      - listitem [ref=e16]:
+        - link "Proyectos" [ref=e17] [cursor=pointer]:
+          - /url: "#proyectos"
+      - listitem [ref=e18]:
+        - link "Educación" [ref=e19] [cursor=pointer]:
+          - /url: "#educacion"
+      - listitem [ref=e20]:
+        - link "Actividades" [ref=e21] [cursor=pointer]:
+          - /url: "#actividades"
+      - listitem [ref=e22]:
+        - link "Habilidades" [ref=e23] [cursor=pointer]:
+          - /url: "#habilidades"
+      - listitem [ref=e24]:
+        - link "Idiomas" [ref=e25] [cursor=pointer]:
+          - /url: "#idiomas"
+      - listitem [ref=e26]:
+        - link "Contacto" [ref=e27] [cursor=pointer]:
+          - /url: "#contacto"
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - heading "Perfil" [level=2] [ref=e30]
+      - paragraph [ref=e31]:
+        - text: Estudiante de Ingeniería en Ciencias de la Computación en la
+        - link "ESPOL" [ref=e32] [cursor=pointer]:
+          - /url: https://www.espol.edu.ec
+        - text: ", interesado en el desarrollo de software útil, sostenible y escalable. He participado en proyectos web y móviles, hackatones y soluciones tecnológicas con impacto real, con enfoque en frontend, integración de funcionalidades y resolución de bugs. Busco seguir creciendo como desarrollador, fortaleciendo mis bases técnicas y aprendiendo cómo construir sistemas mejor diseñados."
+    - generic [ref=e33]:
+      - heading "Experiencia Laboral" [level=2] [ref=e34]
+      - article [ref=e35]:
+        - img "Logo de Jelou" [ref=e36]
+        - heading "Jelou — Software Development Intern" [level=3] [ref=e37]
+        - time [ref=e38]: Marzo 2026 – Actualidad
+        - paragraph [ref=e39]: Guayaquil, Ecuador
+        - paragraph [ref=e40]: "Colaboro en el desarrollo y mejora de funcionalidades para productos de software: frontend, integración de componentes, corrección de bugs, revisión de flujos de usuario y mantenimiento de código. He reforzado mis habilidades con TypeScript, React, Git y el trabajo colaborativo dentro de un entorno real de desarrollo."
+    - generic [ref=e41]:
+      - heading "Proyectos Destacados" [level=2] [ref=e42]
+      - article [ref=e43]:
+        - img "NASA Space Apps Challenge" [ref=e44]
+        - heading "NASA Space Apps Challenge (Hackatón, Ganador)" [level=3] [ref=e45]
+        - time [ref=e46]: Octubre 2025
+        - paragraph [ref=e47]: Desarrollé parte del frontend de una plataforma web para visualizar la calidad del aire en tiempo real usando datos de la NASA. Participé en la integración de APIs ambientales y en la construcción de componentes de la interfaz.
+      - article [ref=e48]:
+        - img "Hackatón AgroFuturo" [ref=e49]
+        - heading "Hackatón AgroFuturo (Hackatón, Ganador)" [level=3] [ref=e50]
+        - time [ref=e51]: Noviembre 2025
+        - paragraph [ref=e52]: Desarrollé parte del frontend de una aplicación móvil en React Native para conectar agricultores, inversores y compradores en una sola plataforma, enfocada en facilitar el acceso a inversión y mejorar la transparencia de precios en el sector agrícola.
+      - article [ref=e53]:
+        - img "InnovAILab - Govly" [ref=e54]
+        - heading "InnovAILab — Track Gobierno Digital (Hackatón, Ganador)" [level=3] [ref=e55]
+        - time [ref=e56]: Enero 2026
+        - paragraph [ref=e57]: Desarrollé parte del frontend de Govly, una plataforma web y móvil para centralizar información de trámites gubernamentales en Ecuador. Participé en el diseño de pantallas y funcionalidades para facilitar el acceso ciudadano a servicios públicos.
+      - article [ref=e58]:
+        - img "Modelado de red de vuelos en Java" [ref=e59]
+        - heading "Modelado de red de vuelos (Proyecto académico — Java)" [level=3] [ref=e60]
+        - time [ref=e61]: Agosto 2025
+        - paragraph [ref=e62]: Implementé un modelo de red de vuelos con grafos, aplicando el algoritmo de Dijkstra para hallar rutas óptimas entre aeropuertos. Reforcé conceptos de programación orientada a objetos, estructuras de datos, análisis de complejidad y diseño de soluciones algorítmicas.
+    - generic [ref=e63]:
+      - heading "Educación" [level=2] [ref=e64]
+      - article [ref=e65]:
+        - heading "Escuela Superior Politécnica del Litoral (ESPOL)" [level=3] [ref=e66]
+        - paragraph [ref=e67]: Ingeniería en Ciencias de la Computación (2024 – Actualidad) — 5.º semestre
+        - paragraph [ref=e68]:
+          - strong [ref=e69]: "Materias relevantes:"
+        - list [ref=e70]:
+          - listitem [ref=e71]: Estructuras de Datos
+          - listitem [ref=e72]: Programación de Sistemas
+          - listitem [ref=e73]: Programación Orientada a Objetos
+          - listitem [ref=e74]: Diseño de Software
+      - article [ref=e75]:
+        - heading "Unidad Educativa San José La Salle" [level=3] [ref=e76]
+        - paragraph [ref=e77]: Bachiller en Ciencias (2017 – 2023)
+    - generic [ref=e78]:
+      - heading "Actividades" [level=2] [ref=e79]
+      - article [ref=e80]:
+        - heading "TAWS ESPOL — Miembro activo" [level=3] [ref=e81]
+        - paragraph [ref=e82]: Participo en iniciativas de ciencia de datos, tecnología y sostenibilidad, fortaleciendo el trabajo en equipo, la investigación y el desarrollo de soluciones con impacto.
+    - generic [ref=e83]:
+      - heading "Habilidades Técnicas" [level=2] [ref=e84]
+      - table [ref=e85]:
+        - rowgroup [ref=e86]:
+          - row "Categoría Tecnologías" [ref=e87]:
+            - columnheader "Categoría" [ref=e88]
+            - columnheader "Tecnologías" [ref=e89]
+        - rowgroup [ref=e90]:
+          - row "Lenguajes Java, Python, JavaScript, TypeScript" [ref=e91]:
+            - cell "Lenguajes" [ref=e92]
+            - cell "Java, Python, JavaScript, TypeScript" [ref=e93]
+          - row "Web y móvil HTML, CSS, React, React Native" [ref=e94]:
+            - cell "Web y móvil" [ref=e95]
+            - cell "HTML, CSS, React, React Native" [ref=e96]
+          - row "Bases de datos MySQL, MongoDB" [ref=e97]:
+            - cell "Bases de datos" [ref=e98]
+            - cell "MySQL, MongoDB" [ref=e99]
+          - row "Control de versiones Git, GitHub" [ref=e100]:
+            - cell "Control de versiones" [ref=e101]
+            - cell "Git, GitHub" [ref=e102]
+          - row "Sistemas operativos Windows, Linux" [ref=e103]:
+            - cell "Sistemas operativos" [ref=e104]
+            - cell "Windows, Linux" [ref=e105]
+          - row "Herramientas Visual Studio Code, Excel, Word, PowerPoint" [ref=e106]:
+            - cell "Herramientas" [ref=e107]
+            - cell "Visual Studio Code, Excel, Word, PowerPoint" [ref=e108]
+          - row "Metodologías Scrum" [ref=e109]:
+            - cell "Metodologías" [ref=e110]
+            - cell "Scrum" [ref=e111]
+    - generic [ref=e112]:
+      - heading "Idiomas" [level=2] [ref=e113]
+      - list [ref=e114]:
+        - listitem [ref=e115]:
+          - strong [ref=e116]: "Español:"
+          - text: Nativo
+        - listitem [ref=e117]:
+          - strong [ref=e118]: "Inglés:"
+          - text: B2 — Intermedio alto
+    - generic [ref=e119]:
+      - heading "Contáctame" [level=2] [ref=e120]
+      - generic [ref=e121]:
+        - paragraph [ref=e122]:
+          - generic [ref=e123]: Nombre
+          - textbox "Nombre" [ref=e124]:
+            - /placeholder: Tu nombre
+        - paragraph [ref=e125]:
+          - generic [ref=e126]: Correo
+          - textbox "Correo" [ref=e127]:
+            - /placeholder: tucorreo@ejemplo.com
+        - paragraph [ref=e128]:
+          - generic [ref=e129]: Asunto
+          - combobox "Asunto" [ref=e130]:
+            - option "Oferta de trabajo" [selected]
+            - option "Proyecto"
+            - option "Otro"
+        - group "Motivo de contacto" [ref=e131]:
+          - generic [ref=e132]: Motivo de contacto
+          - generic [ref=e133]:
+            - radio "Oferta laboral" [ref=e134]
+            - text: Oferta laboral
+          - generic [ref=e135]:
+            - radio "Colaboración" [ref=e136]
+            - text: Colaboración
+          - generic [ref=e137]:
+            - radio "Otro" [ref=e138]
+            - text: Otro
+        - group "Temas de interés" [ref=e139]:
+          - generic [ref=e140]: Temas de interés
+          - generic [ref=e141]:
+            - checkbox "Frontend" [ref=e142]
+            - text: Frontend
+          - generic [ref=e143]:
+            - checkbox "Backend" [ref=e144]
+            - text: Backend
+          - generic [ref=e145]:
+            - checkbox "Desarrollo móvil" [ref=e146]
+            - text: Desarrollo móvil
+        - paragraph [ref=e147]:
+          - generic [ref=e148]: Mensaje
+          - textbox "Mensaje" [ref=e149]:
+            - /placeholder: Escribe tu mensaje
+        - button "Enviar" [ref=e150] [cursor=pointer]
+  - contentinfo [ref=e151]:
+    - paragraph [ref=e152]: © 2026 Sebastián Barco Gaspar
+    - paragraph [ref=e153]: Actualizado en mayo 2026 | Guayaquil, Ecuador
